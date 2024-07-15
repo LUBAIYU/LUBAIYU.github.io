@@ -3,7 +3,7 @@ home: true
 config:
   -
     type: banner
-    banner: https://img2.imgtp.com/2024/04/19/HUIifEEq.jpg
+    banner: https://img.picui.cn/free/2024/07/15/6694c88434ae1.jpg
     bannerMask:
       light: 0.1
       dark: 0.3

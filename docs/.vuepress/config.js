@@ -7,7 +7,7 @@ export default defineUserConfig({
     lang: 'zh-CN',
     theme: plumeTheme({
         avatar: {
-            url: 'https://img2.imgtp.com/2024/04/18/ZDs8GTAv.jpg',
+            url: 'https://img.picui.cn/free/2024/07/15/6694c8fb043d8.jpg',
             name: '路白榆',
             description: '一名普普通通的编程爱好者',
             circle: true,
