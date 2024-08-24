@@ -21,6 +21,10 @@ export default defineUserConfig({
                 icon: 'material-symbols:event-note-outline',
                 items: [
                     {
+                        text: 'Java',
+                        link: '/java/',
+                    },
+                    {
                         text: 'Spring',
                         link: '/spring/',
                     },
@@ -40,6 +44,15 @@ export default defineUserConfig({
             link: '/',
             notes: [
                 {
+                    dir: 'java',
+                    link: '/java/',
+                    sidebar: [
+                        {
+                            items: ['juc']
+                        }
+                    ]
+                },
+                {
                     dir: 'spring',
                     link: '/spring/',
                     sidebar: [
@@ -53,7 +66,7 @@ export default defineUserConfig({
                     link: '/cloud/',
                     sidebar: [
                         {
-                            items: ['rc', 're', 'rb', 'gw','dubbo']
+                            items: ['rc', 're', 'rb', 'gw', 'dubbo']
                         }
                     ]
                 },
